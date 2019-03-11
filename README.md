@@ -1,4 +1,4 @@
-# Very short description of the package
+ # Very short description of the package
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 [![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/resultable)
@@ -17,14 +17,27 @@ composer require macsidigital/resultable
 
 ## Usage
 
+Set the various options in the config like so
+
 ``` php
-// Usage description here
+return [
+	'no_results' => [
+		'20',
+		'50',
+		'100',
+		'250',
+		'500',
+		'1000'
+	]
+];
 ```
 
-### Testing
+Then loop through and use the blade helper to create the links like so, best used in a dropdown
 
-``` bash
-composer test
+``` php
+@foreach(config('resultable.no_results') as $result_amount)
+	<a href="@resultableurl()&results={{$result_amount}}">{{$result_amount}}</a>
+@endforeach
 ```
 
 ### Changelog
