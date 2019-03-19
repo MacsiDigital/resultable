@@ -1,11 +1,11 @@
- # Very short description of the package
+ # A simple Laravel package to set teh number of results
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 [![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/resultable)
 [![Quality Score](https://img.shields.io/scrutinizer/g/macsidigital/resultable.svg?style=flat-square)](https://scrutinizer-ci.com/g/macsidigital/resultable)
 [![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
+A simple Laravel package to set the amount of results returned for pagination
 
 ## Installation
 
@@ -60,7 +60,3 @@ If you discover any security related issues, please email colin@macsi.co.uk inst
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
-
-## Laravel Package Boilerplate
-
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
