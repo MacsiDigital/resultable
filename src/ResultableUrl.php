@@ -4,7 +4,6 @@ namespace MacsiDigital\Resultable;
 
 class ResultableUrl
 {
-
     /**
      * @param array $parameters
      *
@@ -12,7 +11,7 @@ class ResultableUrl
      */
     public static function render()
     {
-       return self::url();
+        return self::url();
     }
 
     private static function url()
@@ -20,11 +19,12 @@ class ResultableUrl
         $href = '/'.request()->path().'?';
         $query = '';
         $sorts = [];
-        foreach(request()->query() as $k => $v){
-            if($k != 'results'){
+        foreach (request()->query() as $k => $v) {
+            if ($k != 'results') {
                 $href .= $k.'='.$v;
             }
         }
+
         return $href;
     }
 }
