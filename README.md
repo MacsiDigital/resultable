@@ -1,8 +1,7 @@
- # A simple Laravel package to set teh number of results
+ # A simple Laravel package to set the number of results
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
-[![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/macsidigital/resultable)
-[![Quality Score](https://img.shields.io/scrutinizer/g/macsidigital/resultable.svg?style=flat-square)](https://scrutinizer-ci.com/g/macsidigital/resultable)
+[![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/MacsiDigital/resultable)
 [![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 
 A simple Laravel package to set the amount of results returned for pagination
