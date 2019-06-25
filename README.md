@@ -1,4 +1,6 @@
- # A simple Laravel package to set the number of results
+# No longer maintained, use https://github.com/MacsiDigital/laravel-resultable
+
+# A simple Laravel package to set the number of results
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 [![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/MacsiDigital/resultable)
