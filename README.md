@@ -6,6 +6,8 @@
 [![Build Status](https://img.shields.io/travis/macsidigital/resultable/master.svg?style=flat-square)](https://travis-ci.org/MacsiDigital/resultable)
 [![Total Downloads](https://img.shields.io/packagist/dt/macsidigital/resultable.svg?style=flat-square)](https://packagist.org/packages/macsidigital/resultable)
 
+No longer maintained, use https://github.com/MacsiDigital/laravel-resultable
+
 A simple Laravel package to set the amount of results returned for pagination
 
 ## Installation
